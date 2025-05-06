@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <parameter name="productName" value="Mens Tshirt"/>
+    <parameter name="browserName" value="edge"/>
+
+    <test verbose="2" preserve-order="true" parallel="true" thread-count="2" name="C:/Users/lenovo/IdeaProjects/Maven00">
+        <classes>
+            <class name="Testng.parameterization.Parameterization"/>
+        </classes>
+    </test>
+</suite>
